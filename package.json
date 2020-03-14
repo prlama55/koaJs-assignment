@@ -1,0 +1,66 @@
+{
+  "name": "koa-assignment",
+  "version": "1.0.0",
+  "description": "Assignment of upwork client",
+  "main": "main.js",
+  "scripts": {
+    "lint": "tslint --project tsconfig.json --format stylish",
+    "build": "tsc",
+    "serve": "ts-node ./src/main.ts",
+    "start": "nodemon",
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prlama55/koa-assignment.git"
+  },
+  "keywords": [
+    "koa",
+    "koaJs",
+    "koa",
+    "assignment",
+    "node",
+    "framework",
+    "node",
+    "nodeJs"
+  ],
+  "author": "Padma Raj Lama",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/prlama55/koa-assignment/issues"
+  },
+  "homepage": "https://github.com/prlama55/koa-assignment#readme",
+  "dependencies": {
+    "@types/koa2-cors": "^2.0.1",
+    "@types/supertest": "^2.0.8",
+    "class-validator": "^0.11.0",
+    "dotenv": "^8.2.0",
+    "http-status-codes": "^1.4.0",
+    "jest": "^25.1.0",
+    "koa": "^2.11.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-json": "^2.0.2",
+    "koa-logger": "^3.2.1",
+    "koa-router": "^8.0.8",
+    "koa2-cors": "^2.0.6",
+    "pg": "^7.18.2",
+    "prettier": "^1.19.1",
+    "reflect-metadata": "^0.1.13",
+    "ts-jest": "^25.2.1",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typeorm": "^0.2.24"
+  },
+  "devDependencies": {
+    "@types/http-status-codes": "^1.2.0",
+    "@types/koa": "^2.11.2",
+    "@types/koa-bodyparser": "^4.3.0",
+    "@types/koa-json": "^2.0.18",
+    "@types/koa-logger": "^3.1.1",
+    "@types/koa-router": "^7.4.0",
+    "@types/node": "^13.9.0",
+    "nodemon": "^2.0.2",
+    "ts-node": "^8.6.2",
+    "tslint": "^6.1.0",
+    "typescript": "^3.8.3"
+  }
+}
