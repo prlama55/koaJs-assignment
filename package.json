@@ -48,7 +48,7 @@
     "reflect-metadata": "^0.1.13",
     "ts-jest": "^25.2.1",
     "ts-node-dev": "^1.0.0-pre.44",
-    "typeorm": "^0.2.24"
+    "typeorm": "^0.2.25"
   },
   "devDependencies": {
     "@types/http-status-codes": "^1.2.0",
